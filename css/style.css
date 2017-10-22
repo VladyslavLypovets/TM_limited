@@ -1,0 +1,154 @@
+header{
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+	border-bottom: 2px solid #f0f0f0;
+}
+.top-wrapper{
+	max-width: 100%;
+	padding: 0 11%;
+}
+.title{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+.buy-btn-wrapper{
+	display: flex;
+	justify-content: center;
+}
+.buy-btn{
+	margin:30px auto;
+	width: 204px;
+	padding: 0;
+	height: 48px;
+	background-color: #000;
+	color:#fff;
+	border: 1px solid #555555;
+	font-weight: 600;
+	font-size: 20px;
+	cursor: pointer;
+}
+.buy-btn:hover{
+	background-color: #fff;
+	color:#000;
+	transition: all 0.5s;
+	
+}
+.advantage-item{
+	position: relative;
+	padding: 0;
+}
+.advantage-img-wrapper{
+	width: 100%;
+	max-height: 100%;
+}
+.advantage-img-wrapper:before{
+	position: absolute;
+	content: ' ';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0, 0.3);
+}
+.advantage-img-wrapper img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.advantage-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color:#fff;
+
+}
+.advantage-text:before,
+.advantage-text:after{
+	position: absolute;
+	content: ' ';
+	top: 50%;
+	transform: translateY(-50%);
+	height: 2px;
+	width: 30px;
+	background-color: #adadad;
+}
+.advantage-text:before{
+	left: -40px;
+}
+.advantage-text:after{
+	right: -40px;
+}
+.tabs{
+	margin-top: 40px;
+}
+.nav-tabs{
+	border-bottom: 2px solid #bac8d5;
+}
+.nav-tabs li{
+	width: 20%;
+}
+.nav-tabs a{
+	max-height: 65px;
+	text-align: center;
+	color: #000;
+	font-size: 14px;
+}
+li.active a{
+	color: #fff !important;
+	background: #bac8d5 !important;
+	border-color: #bac8d5 !important;
+}
+.tabs-title{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 24px;
+}
+.tabs-text{
+	font-size: 14px;
+	font-weight: 600;
+}
+.contacts{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.contacts img{
+	margin-top: 4px;
+	width: 12px;
+	height: 12px;
+}
+.link-mob{
+	margin-left: 20px;
+	color: #000;
+}
+.link-mob:hover{
+	color: #000;
+}
+.modal-title{
+	font-size: 22px;
+	text-align: center;
+}
+.call-back-btn{
+	margin: 34px;
+	width: 200px;
+	padding: 0;
+	height: 48px;
+	background-color: #000;
+	color:#fff;
+	border-radius: 10px;
+	border: 1px solid #555555;
+	font-weight: 600;
+	font-size: 16px;
+	cursor: pointer;
+}
+.input-call-back-name{
+	margin-bottom: 15px;
+}
+.call-back-btn:hover{
+	background-color: #fff;
+	color:#000;
+	transition: all 0.5s;
+}
